@@ -69,7 +69,12 @@ main{
   .step-box {
   	width: 90%;
   	padding: 0;
-  	margin: 20px 10%;
+  	margin: 0 5%;
   }
-
+ .step-box:nth-child(1) {
+    margin-bottom: 20px
+}
+ .step-box:nth-child(2) {
+    margin-bottom: 20px
+}
 }
